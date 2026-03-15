@@ -248,5 +248,10 @@
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
         @endif
+
+        <ul>
+            <li><a href="{{ route('authors') }}">Authors</a></li>
+            <li><a href="{{ route('publishers') }}">Publishers</a></li>
+        </ul>
     </body>
 </html>
