@@ -4,7 +4,8 @@
         <title>Authors</title>
     </head>
 <body>
-    <label for="author">Jose:</label>
+    <h1>Authors</h1>
+    <label for="author">Authors:</label>
     <input type="text" id="author" name="author">
 </body>
 </html>
