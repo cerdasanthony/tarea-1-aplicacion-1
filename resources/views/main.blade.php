@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Main</title>
+    <title>aplicacion-1</title>
     <style>
         body {
             font-family: sans-serif;
