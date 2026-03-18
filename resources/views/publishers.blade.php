@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Publishers</title>
@@ -60,17 +61,51 @@
             transition: border-color 0.2s;
         }
 
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 24px;
+            font-size: 0.85rem;
+            color: #8a7a6a;
+            text-decoration: none;
+            letter-spacing: 0.04em;
+            transition: color 0.2s;
+        }
+
+        .back-btn:hover {
+            color: #2c2c2c;
+        }
+
+        .back-btn svg {
+            width: 14px;
+            height: 14px;
+            stroke: currentColor;
+            fill: none;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
         input[type="text"]:focus {
             border-color: #8a7a6a;
             background: #fff;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
+        <a href="javascript:history.back()" class="back-btn">
+            <svg viewBox="0 0 24 24">
+                <polyline points="15 18 9 12 15 6" />
+            </svg>
+            Back
+        </a>
         <h1>Publishers</h1>
         <label for="books_input">Publishers:</label>
         <input type="text" id="books_input" name="books_input">
     </div>
 </body>
+
 </html>
